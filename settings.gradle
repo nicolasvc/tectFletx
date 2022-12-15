@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "tectFletx"
 include ':app'
+include ':a:app:mylibrary'
+include ':data'
+include ':domain'
+include ':usecases'

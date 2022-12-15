@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/white"
+    tools:ignore="MissingDefaultResource">
+
+    <!-- Background -->
+    <item>
+        <shape>
+            <stroke android:color="@color/white" android:width="1dp"/>
+            <corners android:radius="8dp" />
+            <solid android:color="#282828" />
+        </shape>
+    </item>
+
+</ripple>

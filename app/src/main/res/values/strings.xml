@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">tectFletx</string>
+    <string name="n_a">N/A</string>
+    <string name="trailer">Trailer:</string>
+    <string name="avaliable">Disponible</string>
+    <string name="name_plate">ANM123</string>
+    <string name="empty_info">N/A</string>
+    <string name="model">Modelo</string>
+    <string name="type">Tipo</string>
+    <string name="color">Color</string>
+    <string name="branch">Marca</string>
+    <string name="plate">Placa</string>
+    <string name="your_vehicule">Información</string>
+    <string name="not_trailer">Sin Trailer</string>
+    <string name="platee">Placa</string>
+    <string name="name_driver">name</string>
+
 </resources>

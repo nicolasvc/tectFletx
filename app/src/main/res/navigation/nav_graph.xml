@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentVehicles">
+
+    <fragment
+        android:id="@+id/fragmentVehicles"
+        android:name="com.example.tectfletx.features.vehicles.ui.FragmentVehicles"
+        android:label="FragmentVehicles" >
+        <action
+            android:id="@+id/action_fragmentVehicles_to_fragmentMap"
+            app:destination="@id/fragmentMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMap"
+        android:name="com.example.tectfletx.features.maps.ui.FragmentMap"
+        android:label="FragmentMap" >
+        <argument android:name="infoVehicle"
+            app:argType="com.example.tectfletx.features.parcelable.InfoVehicleParcelable"/>
+
+
+    </fragment>
+</navigation>
